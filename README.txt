@@ -30,6 +30,9 @@ Included Templates
 basic_buildout
     This creates a basic skeleton for a buildout.
 
+plone_buildout
+    This create a basic skeleton for plone buildout installs (plone-4.3)
+
 recipe
     This creates a skeleton for a buildout recipe for use with zc.buildout
 
