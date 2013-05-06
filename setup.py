@@ -33,6 +33,7 @@ setup(name='templer.buildout',
         "Framework :: Plone :: 3.3",
         "Framework :: Plone :: 4.0",
         "Framework :: Plone :: 4.1",
+        "Framework :: Plone :: 4.3",
         "Framework :: Buildout",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
@@ -40,6 +41,7 @@ setup(name='templer.buildout',
         'Programming Language :: Python :: 2.4',
         'Programming Language :: Python :: 2.5',
         'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
         "Topic :: Software Development :: Code Generators",
@@ -64,6 +66,7 @@ setup(name='templer.buildout',
       [paste.paster_create_template]
       recipe = templer.buildout:Recipe
       basic_buildout = templer.buildout:BasicBuildout
+      plone_buildout = templer.buildout:PloneBuildout
 
       [templer.templer_structure]
       bootstrap = templer.buildout.structures:BootstrapStructure
